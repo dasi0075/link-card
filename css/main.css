@@ -1,12 +1,11 @@
 html {
   box-sizing: border-box;
-  marginbackground: #f0eee8;
+  background-color: #f0eee8;
   font-family: 'Georgia', sans-serif;
   margin: .5rem;
   border-width: 3px;
   border-radius: 8px;
   border: solid #9a816d;
-  background-color: #dcd4cd;
 }
 
 *, *::before, *::after {
@@ -14,7 +13,8 @@ html {
 }
 
 body {
-  margin: 1rem;
+  padding: .8em;
+  background-color: #cabdb2
 }
 
 body:hover {
@@ -35,13 +35,13 @@ main {
 
 p {
   border-bottom: solid  #9a816d;
-  border-width: thin;
+  border-width: medium;
   padding-bottom: .6em;
 }
 
 dl {
   border-bottom: solid  #9a816d;
-  border-width: thin;
+  border-width: medium;
   padding-bottom: .6em;
   font-size: .875rem;
 }
