@@ -18,10 +18,6 @@ body {
   background-color: #dcd4cd;
 }
 
-body:hover {
-  background-color: inherit;
-}
-
 h2 {
   font-family: Dosis, sans-serif;
   color: #512200;
@@ -36,20 +32,20 @@ main {
 
 p {
   border-bottom: solid  #9a816d;
-  border-width: medium;
+  border-width: thin;
   padding-bottom: .6em;
 }
 
 dl {
   border-bottom: solid  #9a816d;
-  border-width: medium;
+  border-width: thin;
   padding: .4em .75em .5em;
   font-size: .875rem;
 }
 
 dl dd {
   text-align: center;
-  line-height: .5;
+  line-height: .2;
 }
 
 a {
@@ -78,5 +74,5 @@ div {
   border-radius: 8px;
 }
 .link-card:hover {
-  background-color: #785439;
+  background-color: #cabdb2;
 }
