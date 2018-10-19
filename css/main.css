@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
-  background-color: #dcd4cd;
+  background-color: #f0eee8;
   font-family: 'Georgia', sans-serif;
-  margin: 0;
+  margin: .5rem;
   border-width: 3px;
   border-radius: 8px;
   border: solid #512200;
@@ -13,7 +13,12 @@ html {
 }
 
 body {
-     margin: 1rem;
+  margin: 1rem;
+}
+
+body:hover {
+  background-color: #dcd4cd;
+
 }
 
 h1 {
@@ -39,6 +44,7 @@ i {
 
 a {
   font-family: 'Dosis', sans-serif;
+  font-size: 1.25rem;
   font-weight: bold;
   list-style-type: none;
   text-decoration: none;
