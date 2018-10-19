@@ -44,11 +44,12 @@ dl {
   padding: .4em .75em .5em;
   font-size: .875rem;
   margin-top: .2rem;
+  padding-bottom: 2em;
 }
 
 dl dd {
   text-align: center;
-  line-height: .2;
+  line-height: .1;
 }
 
 a {
@@ -65,7 +66,7 @@ a dl {
 }
 
 div {
-  padding: .4em 0 .4em 0;
+  padding: .4em 0;
   background-color: #785439;
   border-radius: 8px;
   text-align: center;
