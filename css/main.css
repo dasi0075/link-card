@@ -16,6 +16,7 @@ html {
 body {
   padding: .7em;
   background-color: #dcd4cd;
+  margin: 0;
 }
 
 h2 {
@@ -34,7 +35,7 @@ main {
 p {
   border-bottom: solid  #9a816d;
   border-width: thin;
-  padding-bottom: .7em;
+  padding-bottom: .8em;
   margin-bottom: 0;
 }
 
@@ -75,7 +76,7 @@ div {
   margin-right: 4.5rem;
 }
 
-.link-card {
+.link-card h2 {
   margin: 0;
   border-radius: 8px;
 }
