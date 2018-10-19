@@ -33,13 +33,15 @@ main {
    font-size: 1rem;
  }
 
-dl {
+dl dt {
   font-size: .875rem;
   font-weight: bold;
 }
 
-i {
-  position: left;
+dl dd {
+  vertical-align: middle;
+  font-size: .875rem;
+  font-weight: bold;
 }
 
 a {
