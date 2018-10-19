@@ -1,11 +1,12 @@
 html {
   box-sizing: border-box;
-  background-color: #f0eee8;
+  marginbackground: #f0eee8;
   font-family: 'Georgia', sans-serif;
   margin: .5rem;
   border-width: 3px;
   border-radius: 8px;
-  border: solid #512200;
+  border: solid #9a816d;
+  background-color: #dcd4cd;
 }
 
 *, *::before, *::after {
@@ -17,7 +18,6 @@ body {
 }
 
 body:hover {
-  background-color: #dcd4cd;
 
 }
 
@@ -25,33 +25,34 @@ h1 {
   font-family: 'Dosis', sans-serif;
   color: #512200;
   font-size: 1.5rem;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 main {
-   color: #785439;
+   color: #512200;
    font-size: 1rem;
  }
 
-dl dt {
-  font-size: .875rem;
-  font-weight: bold;
+p {
+  border-bottom: solid  #9a816d;
+  border-width: thin;
+  padding-bottom: .6em;
 }
 
-dl dd {
-  vertical-align: middle;
+dl {
+  border-bottom: solid  #9a816d;
+  border-width: thin;
+  padding-bottom: .6em;
   font-size: .875rem;
-  font-weight: bold;
 }
 
 a {
   font-family: 'Dosis', sans-serif;
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: bolder;
   list-style-type: none;
   text-decoration: none;
-  text-decoration-style: none;
-  color: #dcd4cd;
+  color: #f0eee8;
 }
 
 div {
@@ -59,4 +60,6 @@ div {
   padding: .4em;
   background-color: #785439;
   border-radius: 8px;
+  vertical-align: middle;
+  text-align: center;
 }
