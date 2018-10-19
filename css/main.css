@@ -49,6 +49,10 @@ dl {
   padding-bottom: 2em;
 }
 
+dt dl {
+  display: inline-block;
+}
+
 dl dd {
   text-align: center;
   line-height: .1;
