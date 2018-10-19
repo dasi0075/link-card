@@ -23,7 +23,7 @@ h2 {
   font-family: "Dosis", sans-serif;
   color: #512200;
   font-size: 1.5rem;
-  font-weight: bolder;
+  font-weight: bold;
   margin-top: 0;
 }
 
@@ -37,6 +37,7 @@ p {
   border-width: thin;
   padding-bottom: .8em;
   margin-bottom: 0;
+  font-weight: normal;
 }
 
 dl {
@@ -68,6 +69,7 @@ a dl {
 
 div {
   padding: .4em 0;
+  padding-top: .2em;
   background-color: #785439;
   border-radius: 8px;
   text-align: center;
