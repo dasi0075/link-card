@@ -42,18 +42,15 @@ p {
 
 dl {
   border-bottom: solid  #9a816d;
-  border-width: medium
+  border-width: medium;
   padding: .4em .75em .5em;
   font-size: .875rem;
 }
 
 dl dd {
-  float: center;
   text-align: center;
   line-height: .5;
 }
-
-
 
 a {
   font-family: 'Dosis', sans-serif;
@@ -64,11 +61,16 @@ a {
   color: #f0eee8;
 }
 
+a dl {
+  display: inline-block;
+}
+
 div {
   padding: .4em 0 .4em 0;
   background-color: #785439;
   border-radius: 8px;
   text-align: center;
+  display: block;
 }
 
 .link-card {
