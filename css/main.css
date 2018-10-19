@@ -20,11 +20,11 @@ body {
 }
 
 h2 {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: #512200;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-top: 0;
+  padding-top: .7em;;
 }
 
 main {
@@ -55,7 +55,7 @@ dl dd {
 }
 
 a {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 1.25rem;
   font-weight: bolder;
   list-style-type: none;
