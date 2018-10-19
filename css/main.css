@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #dcd4cd;
   font-family: 'Georgia', sans-serif;
-  margin: 0 0 1rem;
+  margin: 0;
   border-width: 3px;
   border-radius: 8px;
   border: solid #512200;
@@ -12,11 +12,43 @@ html {
   box-sizing: inherit;
 }
 
+body {
+     margin: 1rem;
+}
+
 h1 {
   font-family: 'Dosis', sans-serif;
   color: #512200;
   font-size: 1.5rem;
+  font-weight: bolder;
+}
 
-p {
+main {
    color: #785439;
+   font-size: 1rem;
  }
+
+dl {
+  font-size: .875rem;
+  font-weight: bold;
+}
+
+i {
+  position: left;
+}
+
+a {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-style: none;
+  color: #dcd4cd;
+}
+
+div {
+  display: inline-block;
+  padding: .4em;
+  background-color: #785439;
+  border-radius: 8px;
+}
