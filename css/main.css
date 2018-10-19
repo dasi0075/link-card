@@ -22,7 +22,8 @@ h2 {
   font-family: Dosis, sans-serif;
   color: #512200;
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: bolder;
+  margin-top: 0;
 }
 
 main {
@@ -34,6 +35,7 @@ p {
   border-bottom: solid  #9a816d;
   border-width: thin;
   padding-bottom: .6em;
+  margin-bottom: 0;
 }
 
 dl {
@@ -41,6 +43,7 @@ dl {
   border-width: thin;
   padding: .4em .75em .5em;
   font-size: .875rem;
+  margin-top: .2rem;
 }
 
 dl dd {
@@ -73,6 +76,7 @@ div {
   margin: 0;
   border-radius: 8px;
 }
+
 .link-card:hover {
   background-color: #cabdb2;
 }
