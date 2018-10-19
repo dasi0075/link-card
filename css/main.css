@@ -3,6 +3,7 @@ html {
   background-color: #f0eee8;
   font-family: 'Georgia', sans-serif;
   margin: .5rem;
+  line-height: 1.5;
   border-width: 3px;
   border-radius: 8px;
   border: solid #9a816d;
@@ -13,12 +14,12 @@ html {
 }
 
 body {
-  padding: .8em;
-  background-color: #cabdb2
+  padding: .7em;
+  background-color: #dcd4cd;
 }
 
 body:hover {
-
+  background-color: inherit;
 }
 
 h1 {
@@ -41,10 +42,18 @@ p {
 
 dl {
   border-bottom: solid  #9a816d;
-  border-width: medium;
-  padding-bottom: .6em;
+  border-width: medium
+  padding: .4em .75em .5em;
   font-size: .875rem;
 }
+
+dl dd {
+  float: center;
+  text-align: center;
+  line-height: .5;
+}
+
+
 
 a {
   font-family: 'Dosis', sans-serif;
@@ -56,10 +65,16 @@ a {
 }
 
 div {
-  display: inline-block;
-  padding: .4em;
+  padding: .4em 0 .4em 0;
   background-color: #785439;
   border-radius: 8px;
-  vertical-align: middle;
   text-align: center;
+}
+
+.link-card {
+  margin: 0;
+  border-radius: 8px;
+}
+.link-card:hover {
+  background-color: #785439;
 }
