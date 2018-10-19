@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  background-color: #dcd4cd;
+  font-family: 'Georgia', sans-serif;
+  margin: 0 0 1rem;
+  border-width: 3px;
+  border-radius: 8px;
+  border: solid #512200;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  color: #512200;
+  font-size: 1.5rem;
+
+p {
+   color: #785439;
+ }
