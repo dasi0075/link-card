@@ -14,7 +14,8 @@ html {
 }
 
 body {
-  padding: .7em;
+  padding: .6em;
+  padding-top: .4em;
   background-color: #dcd4cd;
   margin: 0;
 }
@@ -53,6 +54,7 @@ dl {
 dd {
   text-indent: 30%;
 }
+
 dt dl {
   display: inline-block;
 }
@@ -83,10 +85,14 @@ div {
   list-style-type: none;
   text-decoration: none;
   border-radius: 8px;
-  color: #785439;
+  color: #512200;
+}
+
+.link-card h2 {
+  margin-top: 0;
 }
 
 .link-card:hover {
-  background-color: #cabdb2;
+  background-color: #785439;
   width: 100%;
 }
