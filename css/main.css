@@ -24,7 +24,7 @@ h2 {
   color: #512200;
   font-size: 1.5rem;
   font-weight: bold;
-  padding-top: .3em;
+  padding-top: 0;
 }
 
 main {
@@ -83,11 +83,12 @@ div {
   margin-bottom: .6rem;
 }
 
-.link-card h2 {
+.link-card {
   margin: 0;
   border-radius: 8px;
 }
 
 .link-card:hover {
   background-color: #cabdb2;
+  width: 100%;
 }
