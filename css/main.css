@@ -15,7 +15,7 @@ html {
 
 body {
   padding: .6em;
-  padding-top: .4em;
+  padding-top: .1em;
   background-color: #dcd4cd;
   margin: 0;
 }
@@ -93,6 +93,6 @@ div {
 }
 
 .link-card:hover {
-  background-color: #785439;
+  background-color: #cabdb2;
   width: 100%;
 }
