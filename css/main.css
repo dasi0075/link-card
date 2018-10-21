@@ -47,11 +47,11 @@ dl {
   font-size: .875rem;
   margin-top: .2rem;
   padding-bottom: 2em;
-  line-height: 1.1;
+  line-height: .8;
 }
 
 dd {
-  float: center;
+  text-indent: 30%;
 }
 dt dl {
   display: inline-block;
