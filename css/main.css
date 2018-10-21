@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  padding: .6em;
+  padding: .5em;
   padding-top: .1em;
   background-color: #dcd4cd;
   margin: 0;
@@ -38,7 +38,9 @@ p {
   border-width: thin;
   padding-bottom: .8em;
   margin-bottom: 0;
+  margin-top: 0;
   font-weight: normal;
+  text-decoration: none;
 }
 
 dl {
@@ -71,7 +73,7 @@ dt dl {
 
 div {
   padding: .1em 0;
-  padding-top: .1em;
+  padding-top: 0;
   background-color: #785439;
   border-radius: 8px;
   text-align: center;
