@@ -67,6 +67,7 @@ dt dl {
   font-weight: bolder;
   list-style-type: none;
   text-decoration: none;
+  text-decoration-line: none;
   color: #f0eee8;
   padding: 0;
 }
